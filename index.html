@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    
+      <nav id="desktop-nav">
+        <div class="logo">Priyam Raj</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+    <nav id="hamburger-nav">
+      <div class="logo">Priyam Raj</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/mepic1.jpg" 
+        alt ="my profile" 
+        class="about-pic"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm a</p>
+        <h1 class="title"></h1>
+        <p class="section__text__p2">Web Enthusiast</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Priyam-Raj-Web-Enthusiast.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/mepic3.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Btech Bachelors In Technology<br />IIT BOMBAY</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Passionate in creating websites and apps.I am Priyam raj,currently pursuing my btech degree from IIT BOMBAY.I have done my schooling from DPS Bhagalpur.I have keen interest in computer science and have studied Information Practices as my main subject.I am looking forward to join hands with DEVCOM team and continue my interest in field of computers.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pandas</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++ </h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>DBMS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/pt1.jpeg"
+                alt="Enb pic"
+                class="project-img"
+                width="500" height="700"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Enb Buzz</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./assets/Certificate of Priyam raj.pdf'"
+              >
+                Certificate
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./assets/future.pdf'"
+              >
+                Presentation
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/hackathon.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Javascript Hackathon</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./assets/devops.js'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./assets/hackathon ppt.pptx'"
+              >
+                Presentation
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ai.jpeg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">AI Tools</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./assets/be10x.pdf'"
+              >
+                Certificate
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+
+    </section>
+
+    
+
+<section id="projects">
+  <p class="section__text__p1">Browse My </p>
+  <h1 class="title">Hobbies</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/sing pic.png"
+            alt="singing"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Singing</h2>
+            
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='C:\Users\Lenovo\Downloads\Certificate of Priyam raj.pdf'"
+          >
+            Pop
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+          >
+            Classical
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+              
+        </div>
+
+
+      <h2 class="experience-sub-title project-title">Singing</h2>
+      <h4>Indie,Pop,Western,Classical and what not....<br>I am fond of singing and expressing my voice to different emotions.<br>I have won awards at district and state level.<br>When you sing, you put your whole soul into the song. Think about it, singing is not an involuntary bodily function, it requires a bit of effort and, for some, even courage. With the music you express emotions that you might otherwise not be able to express.</h4>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/'"
+        >
+         Like
+        </button>
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/'"
+        >
+          Comment
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<img
+  src="./assets/arrow.png"
+  alt="Arrow icon"
+  class="icon arrow"
+  onclick="location.href='./#contact'"
+/>
+</section>
+
+
+
+<section id="projects">
+  <p class="section__text__p1">                                         <br>
+                                              <br>
+                                                        <br>
+  <br>
+  </p>
+      <h1 class="title">                                      </h1> 
+  
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/webseries.jpeg"
+            alt="WEBSERIES"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Watching Webseries</h2>
+        
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='C:\Users\Lenovo\Downloads\Certificate of Priyam raj.pdf'"
+          >
+            Fantasy
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+          >
+            Comedy
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          
+        </div>
+
+                
+      <h2 class="experience-sub-title project-title">Watching Webseries</h2>
+      <h4>Netflix,Amazon Prime,Youtube are the best buddies as I'm filled with lots of entertainment in my life.<br>Thriller,Horror,Fantasy genre are my favourite ones.<br>If someone wants recommendation I'm everready with a bunch of it.</h4>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='C:\Users\Lenovo\Downloads\Certificate of Priyam raj.pdf'"
+        >
+          Thriller
+        </button>
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/'"
+        >
+          Horror
+        </button>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+<img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+/>
+</section>
+
+
+<section id="projects">
+  <p class="section__text__p1">                                                                                                                                    </p>
+  <h1 class="title">                                                                                                                                     </h1> 
+
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/new badminton.png"
+            alt="Badminton"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Playing Badminton</h2>
+        
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='C:\Users\Lenovo\Downloads\Certificate of Priyam raj.pdf'"
+          >
+            Fun
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+          >
+            My Sports
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          
+        </div>
+
+                
+      <h2 class="experience-sub-title project-title">Badminton</h2>
+      <h4>For me, badminton is the perfect mixture of skill, speed and endurance.<br> I love to play badminton with my friends and family.<br> Badminton is a sport that makes me feel active and healthy while having fun. It is the source of my energy.</h4>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='C:\Users\Lenovo\Downloads\Certificate of Priyam raj.pdf'"
+        >
+          State level
+        </button>
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/'"
+        >
+          District level
+        </button>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+<img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#contact'"
+/>
+</section>
+
+
+
+
+
+<section id="projects">
+  <p class="section__text__p1">Browse My </p>
+  <h1 class="title">Hobbies</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/bookpic2.jpeg"
+            alt="BOOKS"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Reading Books</h2>
+        
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='C:\Users\Lenovo\Downloads\Certificate of Priyam raj.pdf'"
+          >
+            fiction
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+          >
+            Fantasy
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          
+        </div>
+
+             
+      <h2 class="experience-sub-title project-title">Reading Books</h2>
+      <h4>Reading books has always been one of my favorite hobbies. Ever since I was a child, I have found comfort in the pages of a book. As I grew older, my love for reading only increased. Now it has become an integral part of my life.There is something magical about reading a good book. The words on the page come to life. Which transports me to new worlds. It also introduces me to new ideas. I love the way a good book can spark my imagination and challenge my thinking. Whether it is fiction or non-fiction, reading is an enriching and fulfilling experience.
+
+      </h4>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='C:\Users\Lenovo\Downloads\Certificate of Priyam raj.pdf'"
+        >
+          Crime fiction
+        </button>
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/'"
+        >
+          Novel
+        </button>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+<p>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+
+</p>
+<img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+/>
+</section>
+
+
+
+
+    
+    
+    <section id="contact">
+      <p class="section__text__p1">                               <br>
+                                                                                                                                                      <br>
+                                                                                                                                                            <br>
+                                                                                                                       <br>
+                                               <br>
+                                               <br>
+                                               <br>
+                                               
+                                               <br>Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:rajpriyam27email@gmail.com">rajpriyam27email@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+
+
+      
+           
+
+            <div class="contact-info-upper-container">
+              <div class="contact-info-container">
+                <img
+                  src="./assets/email.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:rajpriyam27email@gmail.com">Click Image to view </a></p>
+              </div>
+              <div class="contact-info-container">
+                
+
+                  
+                  
+            
+                <p><a href="https://www.linkedin.com">PROFILE CARD</a></p>
+              
+                <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+                  <!--=============== REMIXICONS ===============-->
+                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css">
+            
+                  <!--=============== CSS ===============-->
+                  <link rel="stylesheet" href="assets/css/styles.css">
+            
+                  <title>Profile card with tooltip - Bedimcode</title>
+               </head>
+              <div class="container">
+                 <article class="card__article">
+                    <div class="card__profile">
+                       <img src="./assets/card photo.jpg" alt="image" class="card__profile-img">
+                    </div>
+                    
+                    <div class="card__tooltip">
+                       <div class="card__content">
+                          <header class="card__header">
+                             <span>Social</span>
+                             
+                             <div class="card__social"> 
+                                <a href="https://www.linkedin.com/" target="_blank">
+                                   <i class="ri-linkedin-box-line"></i>
+                                </a>
+           
+                                <a href="https://github.com/" target="_blank">
+                                   <i class="ri-github-fill"></i>
+                                </a>
+           
+                                <a href="https://dribbble.com/" target="_blank">
+                                   <i class="ri-dribbble-line"></i>
+                                </a>
+                             </div>
+                          </header>
+           
+                          <div class="card__data">
+                             <div class="card__image">
+                                <div class="card__mask">
+                                   <img src="./assets/card photo.jpg" alt="image" class="card__img">
+                                </div>
+                                
+                                <span class="card__status"></span>
+                             </div>
+
+                             <h2 class="card__name">Priyam Raj</h2>
+                             <h3 class="card__profession">Web designer</h3>
+           
+                             <a href="#" class="card__button">
+                                <i class="ri-chat-3-line"></i> <span>Send Message</span>
+                             </a>
+                          </div>
+                       </div>
+                    </div>
+                 </article>
+              </div>
+              </div>
+            </div>
+          </a></p>
+        
+      
+    </section>
+    <footer>
+      <p>                                                                                                                                                     <br>
+                                                                                                                                                                  <br>
+                                                                                                                                                                      <br>
+                                                                                                                                                                      </p>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Priyam Raj. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
